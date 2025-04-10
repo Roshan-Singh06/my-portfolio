@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Roshan Kumar Singh | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Rajdhani:wght@400;600&display=swap" rel="stylesheet">
+  <img src="logo.png" alt="Logo" style="height: 60px; width: auto;">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Rajdhani', sans-serif;
+      background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+      color: #e2e8f0;
+      line-height: 1.6;
+    }
+    header {
+      background: url('banner.jpeg');
+      padding: 90px 20px;
+      text-align: center;
+      color: #fff;
+      position: relative;
+    }
+    header::after {
+      content: "";
+      background: rgba(0, 0, 0, 0.6);
+      position: absolute;
+      inset: 0;
+    }
+    header * {
+      position: relative;
+      z-index: 1;
+    }
+    header h1 {
+      font-size: 3.2rem;
+      margin-bottom: 10px;
+      font-family: 'Orbitron', sans-serif;
+      text-shadow: 0 0 8px #00b4d8, 0 0 12px #ff0054;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #f8fafc;
+    }
+    header img {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-top: 15px;
+      box-shadow: 0 0 10px #38bdf8;
+      border: 4px solid #f43f5e;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      font-size: 2rem;
+      border-left: 6px solid #38bdf8;
+      padding-left: 15px;
+      color: #7dd3fc;
+      margin-bottom: 30px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .card {
+      background: #1e293b;
+      padding: 25px;
+      margin-bottom: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
+      transition: 0.3s ease;
+    }
+    .card:hover {
+      transform: scale(1.02);
+      box-shadow: 0 0 20px rgba(255, 0, 100, 0.5);
+    }
+    ul {
+      list-style: square;
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 12px;
+      font-size: 1.05rem;
+    }
+    a {
+      color: #38bdf8;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a:hover {
+      color: #f43f5e;
+    }
+    footer {
+      background: #0f172a;
+      text-align: center;
+      padding: 25px;
+      font-size: 0.95rem;
+      color: #94a3b8;
+      border-top: 1px solid #334155;
+    }
+    .icon {
+      color: #38bdf8;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Roshan Kumar Singh</h1>
+    <p>Mechanical Engineering | Aerospace | Innovation | Python Developer</p>
+    <img src="WhatsApp Image 2025-04-10 at 12.45.26_2d35f0fa.jpg" alt="Roshan Kumar Singh">
+    <p><a href="https://www.linkedin.com/in/roshan-kumar-singh-a51492345" target="_blank">LinkedIn Profile</a></p>
+  </header>
+
+  <section>
+    <h2><i class="icon" data-lucide="user"></i>About Me</h2>
+    <div class="card">
+      <p>I am a first-year mechanical engineering student passionate about aerospace innovation, radar technology, and building tools that empower the engineering community.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2><i class="icon" data-lucide="cpu"></i>Skills</h2>
+    <div class="card">
+      <ul>
+        <li>Python (Matplotlib, NumPy)</li>
+        <li>C Programming</li>
+        <li>AutoCAD (2D Drafting)</li>
+        <li>Git & GitHub</li>
+        <li>Arduino Uno (Basics)</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2><i class="icon" data-lucide="layers"></i>Projects</h2>
+    <div class="card">
+      <ul>
+        <li><strong>Advanced Metal Strength Comparison</strong> – Visual analytics using Python for aerospace materials</li>
+        <li><strong>MechTechGo</strong> – Community platform for engineers (UI under development)</li>
+        <li><strong>AURA-RX Radar Concept</strong> – Terahertz + AI based radar system (Research Phase)</li>
+      </ul>
+    </div>
+  </section>
+  <section>
+    <h2><i class="icon" data-lucide="award"></i>Certifications & Workshops</h2>
+    <div class="card">
+      <ul>
+        <li><a href="solar.jpg" target="_blank">Solar Cell Technology – Udemy</a></li>
+        <li><a href="python.jpg" target="_blank">Python Programming – Udemy</a></li>
+        <li><a href="autocad.jpg" target="_blank">AutoCAD 2D Drafting – Udemy</a></li>
+        <li><a href="paytm.jpg" target="_blank">Paytm Money Workshop</a></li>
+        <li><a href="dm.jpg" target="_blank">Digital Marketing Workshop</a></li>
+        <li><a href="content.jpg" target="_blank">Content Creation Workshop</a></li>
+        <li><a href="ims.jpg" target="_blank">IMS Workshop</a></li>
+      </ul>
+    </div>
+  </section>
+  
+
+  <section>
+    <h2><i class="icon" data-lucide="activity"></i>Engagements & Research</h2>
+    <div class="card">
+      <ul>
+        <li>Member of IEI Student Chapter</li>
+        <li>Volunteer – Smart India Hackathon (SIH), DEI</li>
+        <li>Researching aerospace materials and radar systems</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Roshan Kumar Singh. All Rights Reserved. | Email: roshandei06@gmail.com | 📞 7318296333</p>
+  </footer>
+
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
